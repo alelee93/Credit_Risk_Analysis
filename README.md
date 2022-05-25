@@ -10,7 +10,7 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
 
 ## Resampling Models to Predict Credit Risk
 
-<img src="Images/NaiveRandomSamplig_Acc">
+<img src="Images/NaiveRandomSamplig_AccScore.png">
 
 ### Naive Random Oversampling
 
