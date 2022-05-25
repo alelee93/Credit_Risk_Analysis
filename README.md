@@ -18,7 +18,7 @@ Below images show the balanced accuracy score, confusion matrix, and imbalanced 
 
 ### SMOTE Oversampling
 
-<img src="Images/SMOTE_acc.png">
+<img src="Images/SMOTE_Acc.png">
 <img src="Images/SMOTE_cm.png">
 <img src="Images/SMOTE_cr.png">
 
