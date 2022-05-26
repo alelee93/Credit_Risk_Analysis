@@ -10,41 +10,43 @@ Below images show the balanced accuracy score, confusion matrix, and imbalanced 
 
 ## Resampling Models to Predict Credit Risk
 
+### Accuracy Score Summaries
+
+<img src="Images/Summary_Accuracy_Score.png">
+
 ### Naive Random Oversampling
 
-<img src="Images/NaiveRandomSamplig_AccScore.png">
 <img src="Images/NaiveRandomSampling_cm.png">
 <img src="Images/NaiveRandomSampling_cr.png">
 
 ### SMOTE Oversampling
 
-<img src="Images/SMOTE_Acc.png">
 <img src="Images/SMOTE_cm.png">
 <img src="Images/SMOTE_cr.png">
 
 ### Undersampling
 
-<img src="Images/undersampling_Acc.png">
 <img src="Images/undersampling_cm.png">
 <img src="Images/undersampling_cr.png">
 
 ### Combination (Over and Under) Sampling
 
-<img src="Images/Comb_Acc.png">
 <img src="Images/Comb_cm.png">
 <img src="Images/Comb_cr.png">
 
 ## Ensemble Classifiers to Predict Credit Risk
 
+### Accuracy Score Summaries
+
+<img src="Images/Ensemble_Summary.png">
+
 ### Balanced Random forest classifier
 
-<img src="Images/brfc_Acc.png">
 <img src="Images/brfc_cm.png">
 <img src="Images/brfc_cr.png">
 
 ### Easy Ensemble AdaBoost Classifier
 
-<img src="Images/eec_Acc.png">
 <img src="Images/eec_cm.png">
 <img src="Images/eec_cr.png">
 
