@@ -52,4 +52,34 @@ Below images show the balanced accuracy score, confusion matrix, and imbalanced 
 
 # Summary
 
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
+**Accuracy Scores**
+
+- In terms of the Resampling Models, the SMOTE and SMOTEEN models have the highest accuracy scores (~0.79) .
+- In terms of the Ensemble classifiers, the EEC model has a higher accuracy score (~0.92).
+
+**Confusion Matrices**
+The confusion matrices show, however, that there are significantly less high risk cases. As such, the high accuracy score that the models show may not be as meaningful.
+
+**Imbalanced Classification Report**
+
+- The high risk precision score for SMOTE and SMOTTEN is ~0.03, the high risk precision score for EEC is ~0.07
+- The high risk recall score for SMOTE and SMOTTEN is ~0.72, the high risk recall score for EEC is ~0.91
+
+Note that the sensitivity/recall is very high, while the precision is very low.
+
+- The F1 score of the SMOTE and SMOTTEN is ~0.06, the F-1 score of the EEC model is 0.14
+
+**Recommendation**
+
+The EEC model is the recommended model. Althogh this model is biased towards approving loans (given that there are less high risk cases), the model also has higher F1, recall, and precision scores than the other models that were evaluated.
+
+# Glossary
+
+- Accuracy Score: Measures the percentage of predictions that the model gets correct.
+
+### Classification Report
+
+- Precision: Precision is a measure of how realiable a positive classification is.
+- Recall: Recall is the ability of the classifier to find all the positive samples.
+- F-1 Score: F1 score is a weighted average of the true positive rate (recall) and precision, where the best score is 1.0 and the worst is 0.0. A useful way to think about the F1 score is that a pronounced imbalance between sensitivity and precision will yield a low F1 score.
+- Support: Support is the number of actual occurrences of the class in the specified dataset.
